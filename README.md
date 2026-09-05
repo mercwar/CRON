@@ -40,6 +40,8 @@ An optimized, multi-tier Windows runtime utility pipeline that indexes local sys
 ```
 </div>
 
+NOTE: Cron will call you for admin requests, in windows you see a box with a shield, this doesn't mean CRON froze.
+
 <h2>⚙️ Core Architecture & Pipeline Components</h2>
 
 <h3>1. The System Cataloger (<code>kernel_cmd.bat</code>)</h3>
