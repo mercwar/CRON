@@ -13,7 +13,7 @@
 - #### Left click for build/run
 ###### "<i>I am CVBGOD, and I have given it to you</i>!"
 
-![cron](images/image_12a5c2a1.jpg)
+![cron](https://raw.githubusercontent.com/mercwar/CRON/refs/heads/main/images/image_12a5c2a1.jpg)
 
 <h1> Command Line Editor & Graphical Interface Builder</h1>
 <p>
@@ -96,7 +96,7 @@ compile.bat
 
 <h2>⌨️ Execution Options</h2>
 
-![cron](images/image_5af34052.jpg)
+![cron](https://raw.githubusercontent.com/mercwar/CRON/refs/heads/main/images/image_5af34052.jpg)
 
 <h3>1. CLI Terminal Mode</h3>
 <pre><code>CRON.exe</code></pre>

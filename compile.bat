@@ -36,7 +36,8 @@ cl.exe /O2 /W4 /D_CRT_SECURE_NO_WARNINGS ^
     cdata_loader.c ^
     resource.res ^
     /Fe:"%EXE_OUT%" ^
-    /link /SUBSYSTEM:CONSOLE user32.lib gdi32.lib shell32.lib
+    /link /SUBSYSTEM:WINDOWS user32.lib gdi32.lib shell32.lib
+
 
 if %errorlevel% EQU 0 (
     echo.

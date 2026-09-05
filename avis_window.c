@@ -1,8 +1,17 @@
+#ifndef _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
+#endif
+
 #include "avis_window.h"
 #include "cdata_loader.h"
 #include <windows.h>
 #include <stdio.h>
+#include <string.h>
 #include <ctype.h>
+
+// External reference to link directly into main.c's global asynchronous engine
+extern HANDLE hGlobalJobObject;
+void DispatchCommandNonBlocking(const char* cmd);
 
 static HWND hList, hEdit, hButton, hUsageBox;
 
@@ -146,31 +155,47 @@ LRESULT CALLBACK AvisWndProc(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam) 
         break;
 
     case WM_COMMAND:
+        // LEFT-CLICK (Selection Change): Populates isolated prototype commands into the custom editor input line
         if (LOWORD(wParam) == 1 && HIWORD(wParam) == LBN_SELCHANGE) {
             int sel = (int)SendMessageW(hList, LB_GETCURSEL, 0, 0);
             if (sel != LB_ERR) {
                 char cmdRun[512];
                 sprintf_s(cmdRun, sizeof(cmdRun), "%s /?", database[sel].key);
                 
+                // Live updates syntax into hEdit box asynchronously
                 CaptureCommandOutput(cmdRun, database[sel].key, hEdit, TRUE);
+
+                // Executable Intercept Warning Check Prompt Layout
+                if (strstr(database[sel].val, ".exe") || strstr(database[sel].val, ".EXE")) {
+                    int response = MessageBoxW(hWnd,
+                        L"This command appears to reference a system executable binary.\nDo you want to run it?",
+                        L"CRON Engine Core",
+                        MB_YESNO | MB_ICONQUESTION);
+
+                    if (response == IDYES) {
+                        DispatchCommandNonBlocking(database[sel].key);
+                    }
+                }
                 
+                // Clear selection carets and reset scroll back to position zero
                 SetFocus(hEdit);
                 SendMessageW(hEdit, EM_SETSEL, 0, 0);
                 SendMessageW(hEdit, EM_SCROLLCARET, 0, 0);
             }
         }
 
+        // SEND BUTTON: Forwards the modified command line out to the asynchronous runner thread
         if (LOWORD(wParam) == 3) {
             wchar_t buf[256];
             char mb[256];
             GetWindowTextW(hEdit, buf, 256);
-            
             WideCharToMultiByte(CP_ACP, 0, buf, -1, mb, sizeof(mb), NULL, NULL);
-            system(mb);
+            DispatchCommandNonBlocking(mb);
         }
         break;
 
     case WM_CONTEXTMENU:
+        // RIGHT-CLICK: Queries full help documentation manuals and dumps into hUsageBox
         if ((HWND)wParam == hList) {
             POINT pt;
             pt.x = (int)(short)LOWORD(lParam);
@@ -202,13 +227,12 @@ void ShowAvisWindow(HINSTANCE hInst) {
     WNDCLASSW wc = {0};
     wc.lpfnWndProc = AvisWndProc;
     wc.hInstance = hInst;
-    // UPDATED: Dynamically bind 'favi-con.ico' using precompiled resource ID 1
+    // Bind 'favi-con.ico' using compiled resource script ID 1
     wc.hIcon = LoadIconW(hInst, MAKEINTRESOURCEW(1));
     wc.hCursor = LoadCursor(NULL, IDC_ARROW);
     wc.lpszClassName = L"CRON_Window";
     RegisterClassW(&wc);
 
-    // UPDATED: Standardized window title identifier name to CRON
     HWND hWnd = CreateWindowW(L"CRON_Window", L"CRON",
         WS_OVERLAPPEDWINDOW & ~WS_THICKFRAME & ~WS_MAXIMIZEBOX,
         CW_USEDEFAULT, CW_USEDEFAULT, 645, 475,
@@ -217,6 +241,7 @@ void ShowAvisWindow(HINSTANCE hInst) {
     ShowWindow(hWnd, SW_SHOW);
     UpdateWindow(hWnd);
 
+    // Global main thread unified message pump loop
     MSG msg;
     while (GetMessageW(&msg, NULL, 0, 0)) {
         TranslateMessage(&msg);
