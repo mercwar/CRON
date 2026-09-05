@@ -103,6 +103,10 @@ compile_main.bat
 <pre><code>CRON.exe --avis-gui</code></pre>
 <p>Launches the graphical command builder window.</p>
 
+<h3>3. Open from command line</h3>
+<pre><code>AVIS_CRON> avis</code></pre>
+<p>Launches the graphical command builder window.</p>
+
 <div class="diagram">
 ┌────────────────────────────────────────────────────────────────────────┐<br>
 │ CRON Command Builder Window Layout │<br>
