@@ -30,7 +30,7 @@ int RunConsole(int guiFlag) {
     printf("Loaded %d system command objects.\n\n", db_count);
 
     while (1) {
-        printf("AVIS_META_ED > ");
+        printf("AVIS_CRON > ");
         if (!fgets(input, sizeof(input), stdin)) break;
         input[strcspn(input, "\r\n")] = 0;
 
