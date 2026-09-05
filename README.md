@@ -7,10 +7,12 @@
 />
 </a>
 
----
+#
+#### Just type in 'avis' at the AVIS_CRON> command prompt
 
+###### "<i>I am CVBGOD, and I have given it to you</i>!"
 
-# ✨ CRON 💎🔥
+![cron](images/image_12a5c2a1.jpg)
 
 <h1> Command Line Editor & Graphical Interface Builder</h1>
 <p>
@@ -18,20 +20,24 @@ An optimized, multi-tier Windows runtime utility pipeline that indexes local sys
 </p>
 
 <div class="diagram">
-┌────────────────────────────────────────────────────────┐<br>
-│ CRON SYSTEM ARCHITECTURE │<br>
-└───────────────────────────┬────────────────────────────┘<br>
-│<br>
-▼<br>
-[ Batch 1 ] ──────► [ Batch 2 ] ──────► [ Batch 3 ]<br>
-kernel_cmd.bat   kernel_parse.bat   compile_main.bat<br>
-(System Probe)   (CDATA Pack)       (MSVC Compiler)<br>
-│<br>
-▼<br>
-[ CRON.exe ]<br>
-/ <br>
-▼ ▼<br>
-[ CLI Terminal ]   [ Win32 GUI Window ]<br>
+    
+```
+┌────────────────────────────────────────────────────────┐
+│               CRON SYSTEM ARCHITECTURE                 │
+└───────────────────────────┬────────────────────────────┘
+                            │
+                            ▼
+   [ Batch 1 ] ──────► [ Batch 2 ] ──────► [ Batch 3 ]
+   kernel_cmd.bat     kernel_parse.bat    compile_main.bat
+   (System Probe)      (CDATA Pack)      (MSVC Compiler)
+                            │
+                            ▼
+                       [ CRON.exe ]
+                        /        \
+                       ▼          ▼
+             [ CLI Terminal ]   [ Win32 GUI Window ]
+
+```
 </div>
 
 <h2>⚙️ Core Architecture & Pipeline Components</h2>
@@ -87,6 +93,8 @@ compile_main.bat
 
 <h2>⌨️ Execution Options</h2>
 
+![cron](images/image_5af34052.jpg)
+
 <h3>1. CLI Terminal Mode</h3>
 <pre><code>CRON.exe</code></pre>
 <p>Runs the interactive console editor.</p>
@@ -112,6 +120,36 @@ compile_main.bat
   <li><strong>Send Button:</strong> Executes the command line.</li>
 </ul>
 
-<h2>🛡️ License & Safety Boundaries</h2>
-<p>This framework is built strictly around native Windows system environments and administrative tool APIs. Ensure all build scripts maintain correct path mapping access when handling configurations on critical endpoints.</p>
+#
+
+<!-- MERCWAR LEGAL MODULE - CRON CORE LAYOUT -->
+<div style="background-color: #0b0f19; border: 2px solid #ffaa00; border-radius: 8px; padding: 20px; font-family: 'Consolas', 'Courier New', monospace; box-shadow: 0 0 20px rgba(255, 170, 0, 0.15); max-width: 750px; margin: 20px auto; color: #f0f4fc; line-height: 1.5;">   
+    <div style="text-align: center; font-weight: bold; border-bottom: 1px dashed #3a4454; padding-bottom: 15px; margin-bottom: 15px;">
+        <span style="color: #00e5ff; font-size: 1.1em; letter-spacing: 1px;">⚡ MERCWAR LEGAL COMPLIANCE GATEWAY ⚡</span><br>  
+<hr>
+    </div>
+    <!-- Alert Banner Node -->
+    <div style="background-color: rgba(255, 51, 51, 0.1); border-left: 4px solid #ff3333; padding: 10px 15px; margin-bottom: 20px; font-weight: bold;">
+        <span style="color: #ff3333;">By Joe Tron</span>
+    </div>
+    <!-- Structural Data Fields -->
+    <div style="margin-bottom: 20px; padding-left: 10px;">
+        <p style="margin: 6px 0;"><span style="color: #a0aec0; font-weight: bold;">PROJECT IDENTIFIER :</span> <span style="color: #00ff66;">CRON Core Systems (AIFVS-ARTIFACT)</span></p>
+        <p style="margin: 6px 0;"><span style="color: #a0aec0; font-weight: bold;">COPYRIGHT HOLDER   :</span> <span style="color: #00ff66;">&copy; 2026 MERCWAR / Joe Tron's Avis Network Gate</span></p>
+        <p style="margin: 6px 0;"><span style="color: #a0aec0; font-weight: bold;">REGISTRATION ID    :</span> <span style="color: #d53f8c;">MW-CRON-NEON-V7</span></p>
+    </div>
+    <hr style="border: 0; border-top: 1px solid #3a4454; margin: 15px 0;">
+    <!-- Terms and Context Payload Block -->
+    <div style="font-size: 0.95em; padding: 0 10px;">
+        <h4 style="color: #00e5ff; margin-top: 0; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 0.5px;">📋 Terms of Engagement &amp; Repository Use License:</h4>
+        <p style="color: #cbd5e0; margin: 0; text-align: justify;">
+            This module constitutes a proprietary multi-tier runtime utility compilation engine asset. 
+            Unauthorized deployment, decompilation, or distribution outside verified uplink window parameters 
+            is strictly evaluated as an active perimeter breach under <strong>Mercwar AI Portal</strong> system constraints.
+        </p>
+    </div>
+    <div style="margin-top: 20px; padding-top: 10px; border-top: 1px dashed #3a4454; font-size: 0.85em; text-align: center; color: #ffaa00; font-weight: bold;">
+        <span>🔒 Cron is For MS Windows</span>
+    </div>
+</div>
 
