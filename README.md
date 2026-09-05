@@ -28,7 +28,7 @@ An optimized, multi-tier Windows runtime utility pipeline that indexes local sys
                             │
                             ▼
    [ Batch 1 ] ──────► [ Batch 2 ] ──────► [ Batch 3 ]
-   kernel_cmd.bat     kernel_parse.bat    compile_main.bat
+   parse_com.bat     list_com.bat    compile.bat
    (System Probe)      (CDATA Pack)      (MSVC Compiler)
                             │
                             ▼
@@ -44,19 +44,19 @@ NOTE: Cron will call you for admin requests, in windows you see a box with a shi
 
 <h2>⚙️ Core Architecture & Pipeline Components</h2>
 
-<h3>1. The System Cataloger (<code>kernel_cmd.bat</code>)</h3>
+<h3>1. The System Cataloger (<code>list_com.bat</code>)</h3>
 <ul>
   <li><strong>Hardened Path Processing:</strong> Recursively parses <code>%PATH%</code> using a semicolon delimiter to preserve directories with spaces.</li>
   <li><strong>Format Uniformity:</strong> Normalizes text into <code>key=val|usage</code> layout structures.</li>
 </ul>
 
-<h3>2. The CDATA Database Parser (<code>kernel_parse.bat</code>)</h3>
+<h3>2. The CDATA Database Parser (<code>parse_com.bat</code>)</h3>
 <ul>
   <li><strong>Header Elimination:</strong> Strips structural <code>.INI</code> headers to avoid crashes.</li>
   <li><strong>Performance:</strong> Cuts parsing time from 120s to under 2s.</li>
 </ul>
 
-<h3>3. The MSVC Compiler Configuration (<code>compile_main.bat</code>)</h3>
+<h3>3. The MSVC Compiler Configuration (<code>compile.bat</code>)</h3>
 <ul>
   <li><strong>Resource Injection:</strong> Embeds <code>favi-con.ico</code> into the binary.</li>
   <li><strong>Optimized Build:</strong> Uses <code>cl.exe /O2 /W4</code> for speed and warnings.</li>
@@ -66,9 +66,9 @@ NOTE: Cron will call you for admin requests, in windows you see a box with a shi
 
 <table>
   <tr><th>File Name</th><th>Specification</th><th>Language</th></tr>
-  <tr><td><code>kernel_cmd.bat</code></td><td>Enumerates system command sets and paths</td><td>Batch</td></tr>
-  <tr><td><code>kernel_parse.bat</code></td><td>Parses configuration variables</td><td>Batch</td></tr>
-  <tr><td><code>compile_main.bat</code></td><td>Automated build pipeline</td><td>Batch</td></tr>
+  <tr><td><code>list_com.bat</code></td><td>Enumerates system command sets and paths</td><td>Batch</td></tr>
+  <tr><td><code>parse_com.bat</code></td><td>Parses configuration variables</td><td>Batch</td></tr>
+  <tr><td><code>compile.bat</code></td><td>Automated build pipeline</td><td>Batch</td></tr>
   <tr><td><code>resource.rc</code></td><td>Maps system icons</td><td>Resource Script</td></tr>
   <tr><td><code>main.c</code></td><td>Main entry point loop</td><td>C / Win32</td></tr>
   <tr><td><code>avis_window.c</code></td><td>GUI window frame</td><td>C / Win32</td></tr>
@@ -87,9 +87,9 @@ NOTE: Cron will call you for admin requests, in windows you see a box with a shi
 </ul>
 
 <h3>Compilation Steps</h3>
-<pre><code>kernel_cmd.bat
-kernel_parse.bat
-compile_main.bat
+<pre><code>list_com.bat
+parse_com.bat
+compile.bat
 </code></pre>
 <p>Generates <strong>CRON.exe</strong> in the root folder.</p>
 
