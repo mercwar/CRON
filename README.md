@@ -1,5 +1,18 @@
 
-<h1>CRON Engine Core — Command Line Editor & Graphical Interface Builder</h1>
+<a target="_self" title="CLICK HERE to ENTER the GATEWAY FREE!" href="https://mercwar.github.io/Constellation/index.html">
+<img 
+    src="https://raw.githubusercontent.com/mercwar/Robo-Knight-Gallery/refs/heads/main/Version%207/image_d2a07390.png" 
+    alt="Mercwar Constellation" 
+    style="width:100%; height:auto; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.6);"
+/>
+</a>
+
+---
+
+
+# ✨ CRON 💎🔥
+
+<h1> Command Line Editor & Graphical Interface Builder</h1>
 <p>
 An optimized, multi-tier Windows runtime utility pipeline that indexes local system tools, internal batch utilities, and <code>System32</code> binaries, transforming them into a unified catalog. It features an integrated database parser and provides a hybrid runtime system offering an interactive, secure passthrough <strong>Command Line Console</strong> alongside a high-performance Win32 <strong>Graphical UI Interface</strong>.
 </p>
