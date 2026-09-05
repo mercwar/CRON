@@ -9,7 +9,8 @@
 
 #
 #### Just type in 'avis' at the AVIS_CRON> command prompt
-
+- #### Right click for native help/use/syntax
+- #### Left click for build/run
 ###### "<i>I am CVBGOD, and I have given it to you</i>!"
 
 ![cron](images/image_12a5c2a1.jpg)
