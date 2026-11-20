@@ -37,6 +37,9 @@
     <loc>https://github.com/mercwar/CRON/blob/main/resource.rc</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/_config.yml</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/CRON/blob/main/WIN11_COMMANDS.INI</loc>
   </url>
   <url>
@@ -44,6 +47,9 @@
   </url>
   <url>
     <loc>https://github.com/mercwar/CRON/blob/main/sitemap.xml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/.gitmodules</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CRON/blob/main/README.md</loc>
