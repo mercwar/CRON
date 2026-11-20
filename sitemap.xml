@@ -4,100 +4,13 @@
     <loc>https://github.com/mercwar/CRON/blob/main/CRON.zip</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/.github/workflows/fire-site.yml</loc>
-  </url>
-  <url>
     <loc>https://github.com/mercwar/CRON/blob/main/index.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/WIN11_OBJECTS.CDATA</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/avis_window.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/list_com.bat</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/google77a4b19e8f99751c.html</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/main.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/avis_window.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/fire-site.sh</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/favi-con.ico</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/sitemap.xml</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/compile.bat</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/cdata_loader.h</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/parse_com.bat</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CRON/blob/main/_config.yml</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/resource.rc</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/LICENSE</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/RobotValidator.java</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/environment_state.fl</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/universal_hook.fl</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/cyhy/syntax_parser.php</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/cyhy/comments.fl</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/cyhy/EditorIntegration.java</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/manifest.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/README.md</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/robot_directives.fl</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/universal_hook.fl</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/AIBridge.java</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/manifest.json</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/bridge.js</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/bridge.c</loc>
-  </url>
-  <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/bridge.php</loc>
+    <loc>https://github.com/mercwar/CRON/blob/main/avis_window.c</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CRON/blob/main/README.md</loc>
@@ -106,7 +19,61 @@
     <loc>https://github.com/mercwar/CRON/blob/main/WIN11_COMMANDS.INI</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/.gitmodules</loc>
+    <loc>https://github.com/mercwar/CRON/blob/main/CRON.exe</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/favi-con.ico</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/LICENSE</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/universal_hook.fl</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/README.md</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/robot_directives.fl</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/environment_state.fl</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/manifest.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/cyhy/EditorIntegration.java</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/cyhy/syntax_parser.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/cyhy/comments.fl</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/RobotValidator.java</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/AIBridge.java</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/bridge.php</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/universal_hook.fl</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/bridge.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/manifest.json</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/logic/universal/v1/tools/bridge.js</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/cdata_loader.h</loc>
   </url>
   <url>
     <loc>https://github.com/mercwar/CRON/blob/main/images/CVBGOD</loc>
@@ -118,9 +85,42 @@
     <loc>https://github.com/mercwar/CRON/blob/main/images/image_12a5c2a1.jpg</loc>
   </url>
   <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/avis_window.h</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/.gitmodules</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/parse_com.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/google77a4b19e8f99751c.html</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/sitemap.xml</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/fire-site.sh</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/compile.bat</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/WIN11_OBJECTS.CDATA</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/resource.rc</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/main.c</loc>
+  </url>
+  <url>
+    <loc>https://github.com/mercwar/CRON/blob/main/.github/workflows/fire-site.yml</loc>
+  </url>
+  <url>
     <loc>https://github.com/mercwar/CRON/blob/main/cdata_loader.c</loc>
   </url>
   <url>
-    <loc>https://github.com/mercwar/CRON/blob/main/CRON.exe</loc>
+    <loc>https://github.com/mercwar/CRON/blob/main/list_com.bat</loc>
   </url>
 </urlset>
